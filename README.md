@@ -122,7 +122,7 @@ Allegro-AI-for-Windows/
 
 ### v1.2 (2025-03)
 - ✨ Gemini SDK ใหม่: `google-genai` + model `gemini-2.5-flash`
-- 🐛 รองรับ API Key format ใหม่ของ Google (`AQ.Ab...`)
+- 🐛 รองรับ Google API Key ทุก format (`AIzaSy...`, `AQ.Ab...`)
 - 🐛 แก้ Delete Device / Edit Device ไม่ทำงาน
 - 🐛 ช่อง IP ไม่ต้องพิมพ์ `https://` แล้ว
 
