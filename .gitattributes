@@ -1,5 +1,6 @@
-# Force CRLF line endings for Windows batch files
-*.bat text eol=crlf
+# Store .bat files as binary — preserves CRLF in git object store
+# This ensures GitHub ZIP downloads include correct Windows line endings
+*.bat -text
 
-# Use LF for everything else
+# Auto-detect for everything else
 * text=auto
