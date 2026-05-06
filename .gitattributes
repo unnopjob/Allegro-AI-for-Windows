@@ -1,6 +1,5 @@
-# Store .bat files as binary — preserves CRLF in git object store
-# This ensures GitHub ZIP downloads include correct Windows line endings
-*.bat -text
-
-# Auto-detect for everything else
+# Auto-detect line endings for all files
 * text=auto
+
+# .bat files must keep CRLF for Windows CMD — stored as binary, no conversion
+*.bat -text
